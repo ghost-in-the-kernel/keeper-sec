@@ -1,0 +1,1867 @@
+{
+  "tool": "suite-builder",
+  "ledgerVersion": 1,
+  "entities": [
+    {
+      "id": "type:/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "HomePage",
+      "patterns": [
+        "/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/get-keeper.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "GetKeeperPage",
+      "patterns": [
+        "/get-keeper.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/support.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "SupportPage",
+      "patterns": [
+        "/support.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/category/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogCategoryPage",
+      "patterns": [
+        "/blog/category/*",
+        "/blog/page/{n}",
+        "/blog/category/*/page/{n}",
+        "/blog/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/{n}/{n}/{n}/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogPage",
+      "patterns": [
+        "/blog/{n}/{n}/{n}/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/partners.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "PartnersPage",
+      "patterns": [
+        "/partners.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/enterprise.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "EnterprisePage",
+      "patterns": [
+        "/enterprise.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/features/password-generator/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "FeaturesPasswordGeneratorPage",
+      "patterns": [
+        "/features/password-generator/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/business.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BusinessPage",
+      "patterns": [
+        "/business.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/solutions/remote-browser-isolation/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "SolutionsRemoteBrowserIsolationPage",
+      "patterns": [
+        "/solutions/remote-browser-isolation/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/*/page/{n}",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "Blog2Page",
+      "patterns": [
+        "/blog/*/page/{n}",
+        "/blog/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/personal.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "PersonalPage",
+      "patterns": [
+        "/personal.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/features/passphrase-generator/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "FeaturesPassphraseGeneratorPage",
+      "patterns": [
+        "/features/passphrase-generator/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/resources/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "ResourcePage",
+      "patterns": [
+        "/resources/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/resources/glossary/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "ResourcesGlossaryPage",
+      "patterns": [
+        "/resources/glossary/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/family-plan.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "FamilyPlanPage",
+      "patterns": [
+        "/family-plan.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/privileged-access-management/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "PrivilegedAccessManagementPage",
+      "patterns": [
+        "/privileged-access-management/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/vs/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "VsPage",
+      "patterns": [
+        "/vs/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/endpoint-privilege-management/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "EndpointPrivilegeManagementPage",
+      "patterns": [
+        "/endpoint-privilege-management/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/secrets-manager.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "SecretsManagerPage",
+      "patterns": [
+        "/secrets-manager.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/author/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogAuthorPage",
+      "patterns": [
+        "/blog/author/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/msp-password-manager.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "MspPasswordManagerPage",
+      "patterns": [
+        "/msp-password-manager.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/msp-privileged-access-manager/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "MspPrivilegedAccessManagerPage",
+      "patterns": [
+        "/msp-privileged-access-manager/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/trial/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "TrialPage",
+      "patterns": [
+        "/trial/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/ru/{n}/{n}/{n}/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogRuPage",
+      "patterns": [
+        "/blog/ru/{n}/{n}/{n}/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/ru/category/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogRuCategoryPage",
+      "patterns": [
+        "/blog/ru/category/*",
+        "/blog/ru/category/*/page/{n}"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/reports/isg-buyers-guide/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "ReportsIsgBuyersGuidePage",
+      "patterns": [
+        "/reports/isg-buyers-guide/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/ru/author/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogRuAuthorPage",
+      "patterns": [
+        "/blog/ru/author/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/features/risk-management-dashboard/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "FeaturesRiskManagementDashboardPage",
+      "patterns": [
+        "/features/risk-management-dashboard/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/industries/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "IndustryPage",
+      "patterns": [
+        "/industries/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/ja/{n}/{n}/{n}/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogJaPage",
+      "patterns": [
+        "/blog/ja/{n}/{n}/{n}/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/es/{n}/{n}/{n}/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogEsPage",
+      "patterns": [
+        "/blog/es/{n}/{n}/{n}/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/pt-br/{n}/{n}/{n}/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogPtBrPage",
+      "patterns": [
+        "/blog/pt-br/{n}/{n}/{n}/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/nl/{n}/{n}/{n}/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogNlPage",
+      "patterns": [
+        "/blog/nl/{n}/{n}/{n}/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/de/{n}/{n}/{n}/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogDePage",
+      "patterns": [
+        "/blog/de/{n}/{n}/{n}/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/pl/{n}/{n}/{n}/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogPlPage",
+      "patterns": [
+        "/blog/pl/{n}/{n}/{n}/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/zh-hans/{n}/{n}/{n}/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogZhHansPage",
+      "patterns": [
+        "/blog/zh-hans/{n}/{n}/{n}/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/it/{n}/{n}/{n}/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogItPage",
+      "patterns": [
+        "/blog/it/{n}/{n}/{n}/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/fr/{n}/{n}/{n}/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogFrPage",
+      "patterns": [
+        "/blog/fr/{n}/{n}/{n}/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/government-cloud/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "GovernmentCloudPage",
+      "patterns": [
+        "/government-cloud/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/security.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "SecurityPage",
+      "patterns": [
+        "/security.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/features/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "FeaturesPage",
+      "patterns": [
+        "/features/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/features/secure-file-storage/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "FeaturesSecureFileStoragePage",
+      "patterns": [
+        "/features/secure-file-storage/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/features/tenable-integration/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "FeaturesTenableIntegrationPage",
+      "patterns": [
+        "/features/tenable-integration/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/features/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "FeaturePage",
+      "patterns": [
+        "/features/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/features/*#2",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "Feature2Page",
+      "patterns": [
+        "/features/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/features/keeper-epm-agentic-ai-governance/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "FeaturesKeeperEpmAgenticPage",
+      "patterns": [
+        "/features/keeper-epm-agentic-ai-governance/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/features/*#3",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "Feature3Page",
+      "patterns": [
+        "/features/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/demo/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "DemoPage",
+      "patterns": [
+        "/demo/*",
+        "/trial/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/ja/category/*/page/{n}",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogJaCategoryPage",
+      "patterns": [
+        "/blog/ja/category/*/page/{n}",
+        "/blog/ja/category/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/es/category/*/page/{n}",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogEsCategoryPage",
+      "patterns": [
+        "/blog/es/category/*/page/{n}",
+        "/blog/es/category/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/pt-br/category/*/page/{n}",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogPtBrCategoryPage",
+      "patterns": [
+        "/blog/pt-br/category/*/page/{n}",
+        "/blog/pt-br/category/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/nl/category/*/page/{n}",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogNlCategoryPage",
+      "patterns": [
+        "/blog/nl/category/*/page/{n}",
+        "/blog/nl/category/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/de/category/*/page/{n}",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogDeCategoryPage",
+      "patterns": [
+        "/blog/de/category/*/page/{n}",
+        "/blog/de/category/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/pl/category/*/page/{n}",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogPlCategoryPage",
+      "patterns": [
+        "/blog/pl/category/*/page/{n}",
+        "/blog/pl/category/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/zh-hans/category/*/page/{n}",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogZhHansCategoryPage",
+      "patterns": [
+        "/blog/zh-hans/category/*/page/{n}",
+        "/blog/zh-hans/category/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/it/category/*/page/{n}",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogItCategoryPage",
+      "patterns": [
+        "/blog/it/category/*/page/{n}",
+        "/blog/it/category/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/fr/category/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogFrCategoryPage",
+      "patterns": [
+        "/blog/fr/category/*",
+        "/blog/fr/category/*/page/{n}"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/nl/author/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogNlAuthorPage",
+      "patterns": [
+        "/blog/nl/author/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/zh-hans/author/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogZhHansAuthorPage",
+      "patterns": [
+        "/blog/zh-hans/author/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/fr/author/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogFrAuthorPage",
+      "patterns": [
+        "/blog/fr/author/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/ja/author/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogJaAuthorPage",
+      "patterns": [
+        "/blog/ja/author/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/threats/what-is-phishing/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "ThreatsWhatIsPhishingPage",
+      "patterns": [
+        "/threats/what-is-phishing/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/es/author/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogEsAuthorPage",
+      "patterns": [
+        "/blog/es/author/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/pt-br/author/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogPtBrAuthorPage",
+      "patterns": [
+        "/blog/pt-br/author/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/de/author/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogDeAuthorPage",
+      "patterns": [
+        "/blog/de/author/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/pl/author/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogPlAuthorPage",
+      "patterns": [
+        "/blog/pl/author/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/blog/it/author/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BlogItAuthorPage",
+      "patterns": [
+        "/blog/it/author/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/integrations/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "IntegrationsPage",
+      "patterns": [
+        "/integrations/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/integrations/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "IntegrationPage",
+      "patterns": [
+        "/integrations/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/features/password-policy/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "FeaturesPasswordPolicyPage",
+      "patterns": [
+        "/features/password-policy/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/developer/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "DeveloperPage",
+      "patterns": [
+        "/developer/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/industries/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "IndustriesPage",
+      "patterns": [
+        "/industries/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/threats/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "ThreatPage",
+      "patterns": [
+        "/threats/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/student-discount-50off.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "StudentDiscount50offPage",
+      "patterns": [
+        "/student-discount-50off.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/features/servicenow/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "FeaturesServicenowPage",
+      "patterns": [
+        "/features/servicenow/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/id-me-verification.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "IdMeVerificationPage",
+      "patterns": [
+        "/id-me-verification.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/pricing/keeperpam/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "PricingKeeperpamPage",
+      "patterns": [
+        "/pricing/keeperpam/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/contact.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "ContactPage",
+      "patterns": [
+        "/contact.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/getting-started.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "GettingStartedPage",
+      "patterns": [
+        "/getting-started.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/threats/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "ThreatsPage",
+      "patterns": [
+        "/threats/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/threats/*#2",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "Threat2Page",
+      "patterns": [
+        "/threats/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/features/google-cloud-platform-integration/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "FeaturesGoogleCloudPlatformPage",
+      "patterns": [
+        "/features/google-cloud-platform-integration/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/passkeys-directory/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "PasskeysDirectoryPage",
+      "patterns": [
+        "/passkeys-directory/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/reports/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "ReportPage",
+      "patterns": [
+        "/reports/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/free-data-breach-scan.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "FreeDataBreachScanPage",
+      "patterns": [
+        "/free-data-breach-scan.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/roi-calculator-password-manager/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "RoiCalculatorPasswordManagerPage",
+      "patterns": [
+        "/roi-calculator-password-manager/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/keeperchat.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "KeeperchatPage",
+      "patterns": [
+        "/keeperchat.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/features/quantum-resistant-cryptography/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "FeaturesQuantumResistantCryptographyPage",
+      "patterns": [
+        "/features/quantum-resistant-cryptography/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/request-quote.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "RequestQuotePage",
+      "patterns": [
+        "/request-quote.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/sitemap/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "SitemapPage",
+      "patterns": [
+        "/sitemap/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/ai-agent-blast-radius-calculator/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "AiAgentBlastRadiusPage",
+      "patterns": [
+        "/ai-agent-blast-radius-calculator/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/forcefield-endpoint-protection/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "ForcefieldEndpointProtectionPage",
+      "patterns": [
+        "/forcefield-endpoint-protection/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/opera-password-manager.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "OperaPasswordManagerPage",
+      "patterns": [
+        "/opera-password-manager.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/data-breach-scan-for-business/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "DataBreachScanPage",
+      "patterns": [
+        "/data-breach-scan-for-business/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/resources/webinars/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "ResourcesWebinarsPage",
+      "patterns": [
+        "/resources/webinars/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/chrome-password-manager.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "ChromePasswordManagerPage",
+      "patterns": [
+        "/chrome-password-manager.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/demo/request-demo/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "DemoRequestDemoPage",
+      "patterns": [
+        "/demo/request-demo/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/personal-breachwatch.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "PersonalBreachwatchPage",
+      "patterns": [
+        "/personal-breachwatch.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/trial/start-msp-trial/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "TrialStartMspTrialPage",
+      "patterns": [
+        "/trial/start-msp-trial/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/free-trial-vs-free-version.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "FreeTrialVsFreePage",
+      "patterns": [
+        "/free-trial-vs-free-version.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/partnerships.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "PartnershipsPage",
+      "patterns": [
+        "/partnerships.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/sox-compliance.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "SoxCompliancePage",
+      "patterns": [
+        "/sox-compliance.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/keeperdb/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "KeeperdbPage",
+      "patterns": [
+        "/keeperdb/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/windows-password-manager.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "WindowsPasswordManagerPage",
+      "patterns": [
+        "/windows-password-manager.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/trial/connection-manager-trial/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "TrialConnectionManagerTrialPage",
+      "patterns": [
+        "/trial/connection-manager-trial/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/pricing/business-and-enterprise.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "PricingBusinessAndEnterprisePage",
+      "patterns": [
+        "/pricing/business-and-enterprise.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/press.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "PressPage",
+      "patterns": [
+        "/press.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/vulnerability-disclosure-policy/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "VulnerabilityDisclosurePolicyPage",
+      "patterns": [
+        "/vulnerability-disclosure-policy/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/editorial-policy/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "EditorialPolicyPage",
+      "patterns": [
+        "/editorial-policy/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/williams-racing-case-study/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "WilliamsRacingCaseStudyPage",
+      "patterns": [
+        "/williams-racing-case-study/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/edge-password-manager.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "EdgePasswordManagerPage",
+      "patterns": [
+        "/edge-password-manager.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/reports/uk-cybersecurity-census-report-2022/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "ReportsUkCybersecurityCensusPage",
+      "patterns": [
+        "/reports/uk-cybersecurity-census-report-2022/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/concierge-service.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "ConciergeServicePage",
+      "patterns": [
+        "/concierge-service.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/msp-academy.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "MspAcademyPage",
+      "patterns": [
+        "/msp-academy.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/personal-support/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "PersonalSupportPage",
+      "patterns": [
+        "/personal-support/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/customer-success-portal/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "CustomerSuccessPortalPage",
+      "patterns": [
+        "/customer-success-portal/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/self-managed-keeper/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "SelfManagedKeeperPage",
+      "patterns": [
+        "/self-managed-keeper/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/connection-manager.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "ConnectionManagerPage",
+      "patterns": [
+        "/connection-manager.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/mac-password-manager.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "MacPasswordManagerPage",
+      "patterns": [
+        "/mac-password-manager.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/compliance/cmmc/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "ComplianceCmmcPage",
+      "patterns": [
+        "/compliance/cmmc/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/GDPR.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "GdprPage",
+      "patterns": [
+        "/GDPR.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/legal/dpa/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "LegalDpaPage",
+      "patterns": [
+        "/legal/dpa/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/legal/sub-processors/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "LegalSubProcessorsPage",
+      "patterns": [
+        "/legal/sub-processors/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/breachwatch.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "BreachwatchPage",
+      "patterns": [
+        "/breachwatch.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/jobs.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "JobsPage",
+      "patterns": [
+        "/jobs.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/keeper-plus-bundle-10-off.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "KeeperPlusBundle10Page",
+      "patterns": [
+        "/keeper-plus-bundle-10-off.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/gartner-magic-quadrant-pam/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "GartnerMagicQuadrantPamPage",
+      "patterns": [
+        "/gartner-magic-quadrant-pam/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/safari-password-manager.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "SafariPasswordManagerPage",
+      "patterns": [
+        "/safari-password-manager.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/trial/start-business-trial/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "TrialStartBusinessTrialPage",
+      "patterns": [
+        "/trial/start-business-trial/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/pricing/business-add-ons/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "PricingBusinessAddOnsPage",
+      "patterns": [
+        "/pricing/business-add-ons/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/reports/us-password-practices-report/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "ReportsUsPasswordPracticesPage",
+      "patterns": [
+        "/reports/us-password-practices-report/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/trial/pam-free-trial-keeperdb/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "TrialPamFreeTrialPage",
+      "patterns": [
+        "/trial/pam-free-trial-keeperdb/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/pricing/personal-and-family.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "PricingPersonalAndFamilyPage",
+      "patterns": [
+        "/pricing/personal-and-family.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/resources/solutions/use-cases/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "ResourcesSolutionsUseCasesPage",
+      "patterns": [
+        "/resources/solutions/use-cases/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/insights/cybersecurity-audit/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "InsightsCybersecurityAuditPage",
+      "patterns": [
+        "/insights/cybersecurity-audit/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/company/about/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "CompanyAboutPage",
+      "patterns": [
+        "/company/about/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/promotions/student-discount/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "PromotionsStudentDiscountPage",
+      "patterns": [
+        "/promotions/student-discount/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/ai-agent-blast-radius-calculator/calculator/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "AiAgentBlastRadius2Page",
+      "patterns": [
+        "/ai-agent-blast-radius-calculator/calculator/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/insights/cybersecurity-audit/questionnaire.html",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "InsightsCybersecurityAuditQuestionnairePage",
+      "patterns": [
+        "/insights/cybersecurity-audit/questionnaire.html"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/solutions/*",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "SolutionPage",
+      "patterns": [
+        "/solutions/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    },
+    {
+      "id": "type:/solutions/enterprise-password-management/",
+      "kind": "page-type",
+      "introducedAt": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c",
+      "cls": "SolutionsEnterprisePasswordManagementPage",
+      "patterns": [
+        "/solutions/enterprise-password-management/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "7a1f2620263548fcc4ba668e538c9dbb9bc44339d513f00d7548e86789ccd26c"
+      }
+    }
+  ]
+}

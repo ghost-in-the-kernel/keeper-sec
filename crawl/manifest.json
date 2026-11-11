@@ -1,0 +1,48 @@
+{
+  "tool": "suite-builder",
+  "version": "1.39.0",
+  "generator": {
+    "deterministic": true,
+    "models": "none"
+  },
+  "build": {
+    "commit": "333bba2b173d792c6fe1f43780d48fa83a3f6a29",
+    "branch": "main",
+    "dirty": true
+  },
+  "framework": "playwright",
+  "generatedAt": "2026-11-11T19:11:34.187Z",
+  "command": "suite-builder build https://www.keepersecurity.com/ --demo",
+  "templates": null,
+  "crawl": null,
+  "crawlFileSaved": "2026-11-11T19:10:53.631Z",
+  "pages": {
+    "ship": "local",
+    "crawl": null,
+    "signedIn": false,
+    "roles": []
+  },
+  "accounts": [
+    {
+      "role": "user",
+      "file": "secrets/user.login",
+      "environment": [
+        "SUITE_USER_USERNAME",
+        "SUITE_USER_PASSWORD"
+      ],
+      "docked": "<Suite Builder's secrets folder, DOCK.md's last line>/<site>/user.login"
+    },
+    {
+      "role": "admin",
+      "file": "secrets/admin.login",
+      "environment": [
+        "SUITE_ADMIN_USERNAME",
+        "SUITE_ADMIN_PASSWORD"
+      ],
+      "docked": "<Suite Builder's secrets folder, DOCK.md's last line>/<site>/admin.login"
+    }
+  ],
+  "classes": [],
+  "demo": true,
+  "origin": "https://www.keepersecurity.com"
+}
